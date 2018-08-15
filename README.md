@@ -2,7 +2,7 @@
 
 ![](images/repo-cover.jpg)
 
-**Session Objective:**  How to "modernize" and existing application (Applicatyion Modernization). Overview of the "what" and "why" of Docker containers and an overview of container orchestration with Kubernetes. In addition to lecture and discussion will be some hands on labs to demonstrate how to install the required tools, create a "Docker Container image" (docker build) and deploy it using Kubernetes on the IBM Cloud Private (ICP) platform. Attending this session will give you the basic skills to explore and experiment with containers to determine how they best fit your use cases, or just to have fun with them!
+**Session Objective:**  How to "modernize" and existing application (Application Modernization). Overview of the "what" and "why" of Docker containers and an overview of container orchestration with Kubernetes. In addition to lecture and discussion will be some hands on labs to demonstrate how to install the required tools, create a "Docker Container image" (docker build) and deploy it using Kubernetes on the IBM Cloud Private (ICP) platform. Attending this session will give you the basic skills to explore and experiment with containers to determine how they best fit your use cases, or just to have fun with them!
 
 ---
 
