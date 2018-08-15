@@ -1,15 +1,10 @@
-
-## Containerizing a process for deployment
-
-**In this section**, you will learn how to upload a docker image Dockerhub and deploy it to our cluster. 
+**In this section**, you will learn how to upload a "Docker container image" to Dockerhub and deploy it to our cluster. 
 
 Development processes such as these are typically sped up with enhancements such as automated DevOps processes, however this is a helpful to get a fundamental look at how some of the underlying parts of the process work.
 
-## Task 1: Create a simple node.js process
+Back in [lab 02](lab02/README.md) we built a "Docker container image" of the web app and ran it in the Docker runtime on our local machines (remember that?). Well now, we'll move a copy of that "Docker container image" to our **Dockerhub** account so it's available to run in our IBM Cloud Private (ICP) cluster.
 
-Way back in [lab 02](lab02/README.md) we built an image with a node.js process in it and ran it in the Docker runtime on our local machines. Remember that? Well now, we'll move a copy of that image to our Dockerhub account so its available to run in our IBM Cloud Private Cluster.
-
-First lets tag our image. 
+First lets "tag" our "Docker container image". 
 ```
 
 $ docker tag mynode:v1.0 ehamamcy/mynode:v1.0
@@ -17,14 +12,14 @@ $ docker images
 
 ```
 
-"Tagging" the image tells it where to go when we "push" to a remote repository. By default it will upload to the repository at hub.docker.com (unless syou specify otherwise). 
+"Tagging" the "Docker container image" tells it where to go when we "push" to a remote repository. By default it will upload to the repository at *hub.docker.com* (unless syou specify otherwise). 
 
 Now we'll upload the image with *docker push*:
 ```
 $ docker push ehamamcy/mynode:v1.0
 ```
 
-From here, if you check your browser and look at the list of available tags in the repositoy we created, you should see your new image!
+From here, if you check your browser and look at the list of available "tags" in the repositoy we created, you should see your new image!
 
 ---
 
