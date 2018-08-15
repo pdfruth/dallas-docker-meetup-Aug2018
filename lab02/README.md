@@ -9,7 +9,7 @@ $ mkdir dallasmeetup
 $ cd dallasmeetup
 ```
 
-1. In the dallasmeetup directory, create a file named "Dockerfile" (it doesn't need an extension) and enter the following code:
+1. In the dallasmeetup directory, create a file named **Dockerfile** (it doesn't need an extension) and enter the following code using your preferred editor (nano, vi, etc.):
 
 ```
   FROM node: <to be provided>
