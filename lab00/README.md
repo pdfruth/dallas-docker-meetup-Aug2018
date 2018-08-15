@@ -26,9 +26,9 @@ This message shows that your installation appears to be working correctly.
 
 ---
 
-**Using IBM Cloud Private**
+**Using IBM Cloud Private (ICP)**
 
-The environment we'll use for this session is an IBM Cloud Private cluster. 
+The environment we'll use for this session is an IBM Cloud Private (ICP) cluster. 
 
 [IBM Cloud Private](https://www.youtube.com/watch?v=yzXA3qhfaq0) is an application platform for developing and managing on-premises, containerized applications. It is an integrated environment for managing containers that includes the container orchestrator Kubernetes, a private image repository, a management console, and monitoring frameworks.
 
