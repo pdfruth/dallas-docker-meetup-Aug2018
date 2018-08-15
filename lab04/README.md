@@ -3,13 +3,13 @@
 
 ## Deploying a Container to Kubernetes
 
-**In this section**, we'll run our first container on Kubernetes. We'll work with a docker image that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been pre-packaged and ready to run... that simplifies the usual effort to install and configure software.
+**In this section**, we'll *run* our first container on Kubernetes. We'll work with a "Docker Container image" that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been pre-packaged and ready to run. That simplifies the usual effort to install and configure software.
 
 
 
 ## Task 1: Deploy an "nginx" web server
 
-In this section we'll deploy an **nginx** web server.
+In this section we'll deploy an **nginx** web server (*kubectl run*).
 
 
 ```
@@ -41,7 +41,7 @@ my-deploy    LoadBalancer   10.111.227.3    <pending>     80:30839/TCP     1m
 
 ```
 
-The port is open, so the nginx server should be available... now, we'll use the ip of the cluster, and the port we've exposed to access the server.
+The port is open, so the **nginx** web server should be available.  Now, we'll use the IP of the cluster and the port we've exposed to access the server.
 
 Then we can assemble the url as http:// + [icp master ip] + ":" + [port assigned by the service].
 If the ip address for the master of our cluster is 192.168.99.100 then we should use http://192.168.99.100:30839 to access our new Nginx server.
