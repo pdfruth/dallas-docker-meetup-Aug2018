@@ -7,9 +7,9 @@
 
 
 
-## Task 1: Deploy an Nginx server
+## Task 1: Deploy an "nginx" web server
 
-In this section we'll deploy an Nginx web server...
+In this section we'll deploy an **nginx** web server.
 
 
 ```
