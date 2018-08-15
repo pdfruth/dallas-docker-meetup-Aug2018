@@ -12,7 +12,7 @@ Way back in [lab 02](lab02/README.md) we built an image with a node.js process i
 First lets tag our image. 
 ```
 
-$ docker tag mynode:v1.0 irvingr/mynode:v1.0
+$ docker tag mynode:v1.0 ehamamcy/mynode:v1.0
 $ docker images
 
 ```
@@ -21,7 +21,7 @@ $ docker images
 
 Now we'll upload the image with "docker push":
 ```
-$ docker push irvingr/mynode:v1.0
+$ docker push ehamamcy/mynode:v1.0
 ```
 
 From here, if you check your browser and look at the list of available tags in the repositoy we created, you should see your new image!
@@ -31,7 +31,7 @@ From here, if you check your browser and look at the list of available tags in t
 From here, we can run the image on our kubernetes cluster.
 
 ```
-$ kubectl run hello-node --image=irvingr/mynode:v1.0 --port=8080 --namespace=user99-ns
+$ kubectl run hello-node --image=ehamamcy/mynode:v1.0 --port=8080 --namespace=user99-ns
 deployment "hello-node" created
 
 $ kubectl get deployment --namespace=user99-ns
