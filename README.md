@@ -20,15 +20,15 @@ In this segment we'll talk through the basics:
 **Exercises**
 
 - [lab 00](lab00/README.md): Creating a working environment
-- [lab 01](lab01/README.md): Example of how to *run* an existing Docker container
-- [lab 02](lab02/README.md): Build a Docker container (containerize an existing web app)
+- [lab 01](lab01/README.md): Example of how to *run* an existing Docker container (a Ubuntu 16.04 container)
+- [lab 02](lab02/README.md): Take an existing web app nd *build* a "Docker container image" and *run* the Docker container
 
 **Getting Started with Kubernetes (k8s)**
 
 - [lab 03](lab03/README.md): Running Kubernetes with IBM Cloud Private (ICP)
-- [lab 04](lab04/README.md): Deploying a container to Kubernetes
+- [lab 04](lab04/README.md): Example of how to deploy a container to Kubernetes
 
-**Deploying an application on Kubernetes**
+**Deploying the existing web app on Kubernetes**
 
 - [lab 05](lab05/README.md): Containerize and deploy a node.js application
 - [lab 06](lab06/README.md): Deploy a multi-container application
