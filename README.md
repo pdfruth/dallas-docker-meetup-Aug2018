@@ -12,8 +12,8 @@
 
 In this segment we'll talk through the basics:
 - What are "containers" and where did they come from?
-- What's the difference between containers and Virtual machines?
-- What's "container orchestration" and what's [Kubernetes](https://kubernetes.io/) all about?
+- What is the difference between containers and Virtual machines?
+- What is "container orchestration" and what's [Kubernetes](https://kubernetes.io/) all about?
 - How does this change things for applications today?
 
 **Exercises**
