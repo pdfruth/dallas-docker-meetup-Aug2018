@@ -19,7 +19,7 @@ $ docker images
 
 "Tagging" the image tells it where to go when we "push" to a remote repository. By default it will upload to the repository at hub.docker.com (unless syou specify otherwise). 
 
-Now we'll upload the image with "docker push":
+Now we'll upload the image with *docker push*:
 ```
 $ docker push ehamamcy/mynode:v1.0
 ```
@@ -28,7 +28,7 @@ From here, if you check your browser and look at the list of available tags in t
 
 ---
 
-From here, we can run the image on our kubernetes cluster.
+From here, we can *run* the "Docker container image" on our ICP Kubernetes cluster.
 
 ```
 $ kubectl run hello-node --image=ehamamcy/mynode:v1.0 --port=8080 --namespace=user99-ns
@@ -44,7 +44,7 @@ hello-node-77c96d485-qstmk   1/1       Running   0          3m
 
 ```
 
-With the container running, we'll need to expose the applications port before we can access to application.
+With the Docker container running, we'll need to expose the applications port before we can access to application.
 
 
 ```
