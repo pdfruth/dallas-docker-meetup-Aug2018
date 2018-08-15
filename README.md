@@ -19,8 +19,8 @@ In this segment we'll talk through the basics:
 **Exercises**
 
 - [lab 00](lab00/README.md): Creating a working environment
-- [lab 01](lab01/README.md): Running your first docker container
-- [lab 02](lab02/README.md): Building your own docker container
+- [lab 01](lab01/README.md): Running your first Docker container
+- [lab 02](lab02/README.md): Building your own Docker container
 
 **Getting Started with Kubernetes (k8s)**
 
