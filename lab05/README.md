@@ -7,7 +7,7 @@ Development processes such as these are typically sped up with enhancements such
 
 ## Task 1: Create a simple node.js process
 
-Way back in [lab 02](lab02/README.md) we built an image with a node.js process in it and ran it in the Docker runtime on our local machines...remember that? Well now, we'll move a copy of that image to our Dockerhub account so its available to run in our IBM Cloud Private Cluster.
+Way back in [lab 02](lab02/README.md) we built an image with a node.js process in it and ran it in the Docker runtime on our local machines. Remember that? Well now, we'll move a copy of that image to our Dockerhub account so its available to run in our IBM Cloud Private Cluster.
 
 First lets tag our image. 
 ```
