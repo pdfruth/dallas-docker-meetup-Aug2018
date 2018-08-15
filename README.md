@@ -20,7 +20,7 @@ In this segment we'll talk through the basics:
 
 - [lab 00](lab00/README.md): Creating a working environment
 - [lab 01](lab01/README.md): Example of how to *run* an existing Docker container
-- [lab 02](lab02/README.md): Building your own Docker container
+- [lab 02](lab02/README.md): Build a Docker container (containerize an existing web app)
 
 **Getting Started with Kubernetes (k8s)**
 
