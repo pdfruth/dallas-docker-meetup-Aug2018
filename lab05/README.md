@@ -68,7 +68,7 @@ kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP          5h
 
 ```
 Then we can assemble the URL as http:// + [icp master ip] + ":" + [port assigned by the service].
-If the IP address for the Master of our ICP cluster is 192.168.99.100 then we should use http://192.168.99.100:30839 to access our new service.
+If the IP address for the Master node of our ICP cluster is 192.168.99.100 then we should use http://192.168.99.100:30839 to access our new service.
 
 
 We've built and run our first container on Kubernetes!
