@@ -30,7 +30,7 @@ In this segment we'll talk through the basics:
 
 **Deploying the existing web app on Kubernetes**
 
-- [lab 05](lab05/README.md): Containerize and deploy a node.js application
+- [lab 05](lab05/README.md): Upload the web app "Docker container image" to Dockerhub and deploy it to our ICP cluster
 - [lab 06](lab06/README.md): Deploy a multi-container application
 
 
