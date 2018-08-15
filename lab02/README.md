@@ -18,12 +18,12 @@ $ cd dallasmeetup
   CMD <to be provided>
 ```
 
-3. **Build** the "Docker Container image" (docker build)
+3. **Build** the "Docker Container image" (*docker build*)
 ```
 $ docker build -t mynode:v1.0 .
 ```
 
-4. **Run** the "Docker Container image" (docker run) and test it locally.  The "docker run" command first creates a writeable container layer over the specified image and then starts it using the specified command.  Remember that "Docker Container images" become containers at runtime.
+4. **Run** the "Docker Container image" (*docker run*) and test it locally.  The *docker run* command first creates a writeable container layer over the specified image and then starts it using the specified command.  Remember that "Docker Container images" become containers at runtime.
 
 ```
 $ docker run --rm -d -p 8080:8080 --name mynode-sample  mynode:v1.0
