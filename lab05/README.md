@@ -57,7 +57,7 @@ kubernetes   ClusterIP   10.96.0.1       <none>        443/TCP          5h
 
 ```
 
-Now that the application is accessible via an external port, we're able to gain access to the services with curl
+Now that the application is accessible via an external port, we're able to gain access to the services with the *curl* command
 
 ```  
 $ kubectl get service --namespace=user99-ns
