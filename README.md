@@ -24,10 +24,10 @@ In this segment we'll talk through the basics:
 
 **Getting Started with Kubernetes (k8s)**
 
-- [lab 03](lab03/README.md): Running Kubernetes with IBM Cloud Private
+- [lab 03](lab03/README.md): Running Kubernetes with IBM Cloud Private (ICP)
 - [lab 04](lab04/README.md): Deploying a container to Kubernetes
 
-**Deploying an application on kubernetes**
+**Deploying an application on Kubernetes**
 
 - [lab 05](lab05/README.md): Containerize and deploy a node.js application
 - [lab 06](lab06/README.md): Deploy a multi-container application
