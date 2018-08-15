@@ -20,7 +20,7 @@ $ cd dallasmeetup
 
 3. #Build# the "Docker Container image" (docker build)
 ```
-$ docker build -t <to be provided>
+$ docker build -t mynode:v1.0 .
 ```
 
 4. #Run# the "Docker Container image" (docker run) and test it locally.  The "docker run" command first creates a writeable container layer over the specified image and then starts it using the specified command.  Remember that "Docker Container images" become containers at runtime.
