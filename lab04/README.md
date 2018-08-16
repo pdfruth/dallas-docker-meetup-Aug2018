@@ -27,7 +27,7 @@ my-deploy-dbc4b8b5d-krhwh    1/1       Running       0          1m
 
 ```
 
-Now we have a "container" running.  We'll need to provide access to the server by creating a [service](https://kubernetes.io/docs/concepts/services-networking/service/) to make a port available.
+Now we have a "container" running.  We'll need to provide **access** (*kubectl expose*) to the server by creating a [service](https://kubernetes.io/docs/concepts/services-networking/service/) to make a port available.
 
 ```
 $ kubectl expose deployment my-deploy  --type=NodePort --namespace=user99-ns
