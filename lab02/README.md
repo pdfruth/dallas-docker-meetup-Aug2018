@@ -18,7 +18,7 @@ $ cd dallasmeetup
   CMD <to be provided>
 ```
 
-3. **Build** the "Docker Container image" (*docker build*) based on the **Dockerfile** you just created.
+3. **Build** the "Docker Container image" (*docker build*) based on the **Dockerfile** you just created, name it "mynode" and tag it with "v1.0" in the current directory (* .*) you are in (*dallasmeetup*).
 ```
 $ docker build -t mynode:v1.0 .
 ```
