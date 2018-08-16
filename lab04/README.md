@@ -113,7 +113,7 @@ deployment "my-deploy" image updated
 
 ```
 
-When we tell Kubernetes that our deployment needs to update a new image it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods.
+When we tell Kubernetes that our deployment needs to update a new image it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods (*kubectl get pods*) from a specific ICP *namespace*.
 
 ```
 
