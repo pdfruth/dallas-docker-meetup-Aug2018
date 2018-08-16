@@ -1,5 +1,5 @@
 
-## Containerize an existing web application
+## Containerize an existing web application (*Build*, *Run* and then *Stop*)
 
 In this section we'll take an exising web application and containerize it in a Docker container.
 
@@ -31,7 +31,7 @@ $ docker run --rm -d -p 8080:8080 --name mynode-sample  mynode:v1.0
 
   Now, for a quick test of the container running locally on your machine, in your browser, access http://localhost:8080.  
 
-4. Stop the locally running container
+4. **Stop** the locally running container
 
 ```  
 $ docker stop mynode-sample
