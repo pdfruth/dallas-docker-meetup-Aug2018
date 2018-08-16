@@ -9,9 +9,9 @@ We'll use [IBM Cloud Private](https://www.ibm.com/cloud/learn/what-is-private-cl
 
 
 
-We can connect to our cluster with the browser and with the "kubectl" command line client. We'll spend most of our time with the command line client learning our kubernetes basics, but we'll use browser interface as well.
+We can connect to our cluster with the browser and with the "kubectl" command line interface (CLI). We'll spend most of our time with the command line client learning our kubernetes basics, but we'll use browser interface as well.
 
-First make sure you've checked in with a proctor and have a username and password to log into the cluster.  We'll log into the system via our browser and get our kubectl command line client configured.  
+First make sure you've checked in with a proctor and have a username and password to log into the cluster.  We'll log into the system via our browser and get our *kubectl* CLI configured.  
 
 Start by going to the login page, and entering your username and password.
 
