@@ -43,8 +43,8 @@ my-deploy    LoadBalancer   10.111.227.3    <pending>     80:30839/TCP     1m
 
 The port is open, so the **nginx** web server should be available.  Now, we'll use the IP of the cluster and the port we've exposed to access the server.
 
-Then we can assemble the url as http:// + [icp master ip] + ":" + [port assigned by the service].
-If the ip address for the master of our cluster is 192.168.99.100 then we should use http://192.168.99.100:30839 to access our new Nginx server.
+Then we can assemble the URL as http:// + [icp master ip] + ":" + [port assigned by the service].
+If the IP address for the master of our cluster is 192.168.99.100 then we should use http://192.168.99.100:30839 to access our new **nginx** web server.
 
 ```
 $ curl http://192.168.99.100:30839
