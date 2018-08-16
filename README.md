@@ -21,7 +21,7 @@ In this segment we'll talk through the basics:
 
 - [lab 00](lab00/README.md): Creating a working environment
 - [lab 01](lab01/README.md): Example ---> How to *run* an existing Docker container (a Ubuntu 16.04 container)
-- [lab 02](lab02/README.md): Taking an existing web app: *build* a "Docker container image" of it and *run* the "Docker container" on your "local machine", then *stop* it.
+- [lab 02](lab02/README.md): Taking an existing web app:   *build* a "Docker container image" of it and *run* the "Docker container" on your "local machine", then *stop* it.
 
 **Getting Started with Kubernetes (k8s)**
 
