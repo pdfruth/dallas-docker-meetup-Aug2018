@@ -23,13 +23,13 @@ $ cd dallasmeetup
 $ docker build -t mynode:v1.0 .
 ```
 
-4. **Run** the "Docker Container image" (*docker run*) and test it locally.  The *docker run* command first creates a writeable container layer over the specified image and then starts it using the specified command.  Remember that "Docker Container images" become containers at runtime.
+4. **Run** the "Docker Container image" (*docker run*) to deploy the container, call it "mynode-sample".  The *docker run* command first creates a writeable container layer over the specified image and then starts it using the specified command.  Remember that "Docker Container images" are just files that become containers at runtime.
 
 ```
 $ docker run --rm -d -p 8080:8080 --name mynode-sample  mynode:v1.0
 ```
 
-  For a quick test of the container running locally on your machine, in your browser, access http://localhost:8080.  
+  Now, for a quick test of the container running locally on your machine, in your browser, access http://localhost:8080.  
 
 5. Stop the locally running container
 
