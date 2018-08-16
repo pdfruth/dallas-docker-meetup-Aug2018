@@ -27,7 +27,7 @@ Click the copy button to capture details for configuring the kubectl client and 
 ![](../images/config-box.jpg)
 
 
-The kubectl command line client should be configured.. just to check type
+The *kubectl* CLI should be configured. Just to check type the following:
 
 ```
 
