@@ -30,7 +30,7 @@ In this segment we'll talk through the basics:
 
 **Deploying the existing web app on Kubernetes**
 
-- [lab 05](lab05/README.md): Upload the web app image to [Dockerhub](https://hub.docker.com/) and deploy/run the container to our ICP cluster using Kubernetes
+- [lab 05](lab05/README.md): Upload the web app image to [Dockerhub](https://hub.docker.com/) and deploy/run the container on our ICP cluster using Kubernetes
 - [lab 06](lab06/README.md): Deploy a multi-container application
 
 
