@@ -1,6 +1,6 @@
 
 
-## Running our first container...
+## Running our first container.
 
 In this section, we'll run an Ubuntu 16.04 container to see how things work.
 
