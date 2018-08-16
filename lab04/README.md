@@ -140,7 +140,7 @@ Let's save the results of our deployment, just in case we want to recreate it.
 kubectl get deployment my-deploy -o=yaml --export --namespace=user99-ns > ./apache-deploy.yaml
 ```
 
-Now that we've gotten a bit of a feel for working with Kubernetes we can clean up and move on to the next thing!
+Now that we've gotten a bit of a feel for working with Kubernetes we can clean-up/delete (*kubectl delete*) and move on to the next thing!
 
 ```
 $ kubectl delete deployment my-deploy --namespace=user99-ns
