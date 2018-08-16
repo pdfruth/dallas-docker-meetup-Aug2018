@@ -25,7 +25,7 @@ In this segment we'll talk through the basics:
 
 **Getting Started with Kubernetes (k8s)**
 
-- [lab 03](lab03/README.md): Running Kubernetes with IBM Cloud Private (ICP)
+- [lab 03](lab03/README.md): Running Kubernetes with ICP
 - [lab 04](lab04/README.md): Example of how to deploy a container to Kubernetes
 
 **Deploying the existing web app on Kubernetes**
