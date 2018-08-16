@@ -113,7 +113,7 @@ deployment "my-deploy" image updated
 
 ```
 
-When we tell Kubernetes that our deployment needs to update a new image it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods (*kubectl get pods*) from a specific ICP *namespace*.
+When we tell Kubernetes that our deployment needs to update to a new image version, it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods (*kubectl get pods*) from a specific ICP *namespace*.
 
 ```
 
@@ -132,7 +132,7 @@ my-deploy-857bc7b484-w27c2   1/1       Running       0          13s
 
 ```
 
-To validate that the proper pod is running, do a 'describe' on the deployment or one of the pods and see what image is currently in use.
+To validate that the proper pod is running, do a 'describe' on the deployment (*kubectl get deployment*) or one of the pods and see what image is currently in use.
 
 Let's save the results of our deployment, just in case we want to recreate it.
 
