@@ -3,7 +3,7 @@
 
 In this section we'll take an exising web application, *build* the "Docker container image" of it, deploy/*run* the "Docker container" and then *Stop* the "Docker container".
 
-Create a new directory to work from 
+Frist, create a new directory to work from 
 ```
 $ mkdir dallasmeetup
 $ cd dallasmeetup
