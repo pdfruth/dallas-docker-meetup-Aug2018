@@ -1,5 +1,5 @@
 
-## Containerize an existing web application (*Build*, *Run* and then *Stop*)
+## Containerize an existing web application (*Build* the image, *Run* the container and then *Stop* the container)
 
 In this section we'll take an exising web application and containerize it in a Docker container.
 
