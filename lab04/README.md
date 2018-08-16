@@ -1,9 +1,9 @@
 
 
 
-## Deploying a Container to Kubernetes
+## Deploy a Container to Kubernetes, then Scale, Update Version and Delete it
 
-**In this section**, we'll *run* our first container on Kubernetes. We'll work with a "Docker Container image" that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been pre-packaged and ready to *run*. That simplifies the usual effort to install and configure software.
+**In this section**, we'll Deploy/*run* our first container on Kubernetes, scale it, then update the version and finally delte it. We'll work with a "Docker Container image" that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been **pre-packaged** and ready to *run*. That simplifies the usual effort to install and configure software.
 
 
 
@@ -57,9 +57,9 @@ $ curl http://192.168.99.100:30839
 </html>
 ```
 
-## Task 2: Scale the Nginx deployment and test its resilience
+## Task 2: Scale the "nginx" web server deployment and test its resilience
 
-The server is deployed, but what if we get a lot more traffic than we expected? Fortunately we can manage more instances of our Nginx pods to handle the additional traffic. We'll use the kubectl client to scale our deployment so it has 5 copies running instead of just one.
+The server is deployed, but what if we get a lot more traffic than we expected? Fortunately we can manage more instances of our **nginx** pods to handle the additional traffic. We'll use the *kubectl* CLI to scale (*kubectl scale*) our deployment so it has 5 copies (*replicas*) running instead of just one and validate it.
 
 ```
 $ kubectl scale deploy my-deploy --replicas=5 --namespace=user99-ns
@@ -79,7 +79,7 @@ my-deploy-6fd857889c-xqvqz   1/1       Running   0          50s
 
 ```
 
-Our workloads on Kubernetes are quite resilient if we let the system handle things for us. Let's see how resilient our workload is by deleting a few pods!
+Our workloads on Kubernetes are quite resilient if we let the system handle things for us. Let's see how resilient our workload is by *deleting* a few pods and watching Kubernetes do its work!
 
 ```
 $ kubectl delete pod my-deploy-6fd857889c-xqvqz my-deploy-6fd857889c-nmccq --namespace=user99-ns
@@ -88,7 +88,7 @@ pod "my-deploy-6fd857889c-nmccq" deleted
 
 
 ```
-The pods are deleted as requested... but for both deleted pods, a new pod has been created in its place! Best of all... the service continues to keep track of all the appropriate pods and route network traffic to them as soon as they're available.
+The pods are *deleted* as requested but for both *deleted* pods, a new pod has been created in its place! Best of all, the service continues to keep track of all the appropriate pods and route network traffic to them as soon as they're available.
 
 ```
 $ kubectl get pods --namespace=user99-ns
@@ -113,7 +113,7 @@ deployment "my-deploy" image updated
 
 ```
 
-When we tell kubernetes that our deployment needs to update a new container image it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods.
+When we tell Kubernetes that our deployment needs to update a new image it terminates the old versions while rolling out the new version, and ensures that the service will re-route traffic to the proper pods.
 
 ```
 
@@ -132,9 +132,9 @@ my-deploy-857bc7b484-w27c2   1/1       Running       0          13s
 
 ```
 
-To validate that the proper pod is running, do a 'describe' on the deployment or one of the pods and see what image is currently in use...
+To validate that the proper pod is running, do a 'describe' on the deployment or one of the pods and see what image is currently in use.
 
-Let's save the results of our deployment, just in case we want to recreate it
+Let's save the results of our deployment, just in case we want to recreate it.
 
 ```
 kubectl get deployment my-deploy -o=yaml --export --namespace=user99-ns > ./apache-deploy.yaml
