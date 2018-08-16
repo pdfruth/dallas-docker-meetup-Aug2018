@@ -79,7 +79,7 @@ my-deploy-6fd857889c-xqvqz   1/1       Running   0          50s
 
 ```
 
-Our workloads on Kubernetes are quite resilient if we let the system handle things for us. Let's see how resilient our workload is by *deleting* a few pods and watching Kubernetes do its work!
+Our workloads on Kubernetes are quite resilient if we let the system handle things for us. Let's see how resilient our workload is by deleting (*kubectl delete*) a few pods and watching Kubernetes do its work!
 
 ```
 $ kubectl delete pod my-deploy-6fd857889c-xqvqz my-deploy-6fd857889c-nmccq --namespace=user99-ns
