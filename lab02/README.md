@@ -3,13 +3,13 @@
 
 In this section we'll take an exising web application, *build* the "Docker container image" of it, deploy/*run* the "Docker container" and then *Stop* the "Docker container".
 
-Frist, create a new directory to work from 
+Frist, create a new directory to work from.
 ```
 $ mkdir dallasmeetup
 $ cd dallasmeetup
 ```
 
-1. In the *dallasmeetup* directory, create webapp.js file using your preferred editor (nano, vi, etc.) and add the following code:
+1. In the *dallasmeetup* directory, create webapp.js file using your preferred editor (nano, vi, etc.) and add the following code.
 ```
   Need the "web app" artifacts from Dave.  Below is an example of the server.js app that Richard created.
   
@@ -24,7 +24,7 @@ $ cd dallasmeetup
   www.listen(8080);
 ```
 
-2. In the *dallasmeetup* directory, create a file named **Dockerfile** (it doesn't need an extension) and enter the following code using your preferred editor (nano, vi, etc.):
+2. In the *dallasmeetup* directory, create a file named **Dockerfile** (it doesn't need an extension) and enter the following code using your preferred editor (nano, vi, etc.).
 
 ```
   FROM <to be provided by Dave>
