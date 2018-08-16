@@ -105,7 +105,7 @@ my-deploy-6fd857889c-xqvqz   0/1       Terminating   0          3m
 
 ## Task 3: Update the pod with a new version of the software
 
-It's great that the system scales now... but what happens when we have new versions of our software to deploy? To do that we can simply update the existing deployment and tell it that there's a new version of the image currently in use that should be rolled out.  
+It's great that the system scales now, but what happens when we have new versions of our software to deploy? To do that we can simply update the existing deployment (*kubectl set image*) and tell it that there's a new version of the image currently in use that should be rolled out.  
 
 ```
 $ kubectl set image deployment/my-deploy my-deploy=nginx:1.9 --namespace=user99-ns
