@@ -1,7 +1,7 @@
 
-## Containerize an existing web application (*Build* the image, *Run* the container and then *Stop* the container)
+## Containerize an existing web application
 
-In this section we'll take an exising web application, *Build* the "Docker container image" of it, deploy/*Run* the "Docker container" and then *Stop* the "Docker container".
+In this section we'll take an exising web application, *build* the "Docker container image" of it, deploy/*run* the "Docker container" and then *Stop* the "Docker container".
 
 Create a new directory to work from 
 ```
