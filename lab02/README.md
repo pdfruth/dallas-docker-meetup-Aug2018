@@ -27,7 +27,7 @@ $ cd dallasmeetup
 2. In the *dallasmeetup* directory, create a file named **Dockerfile** (it doesn't need an extension) and enter the following code using your preferred editor (nano, vi, etc.):
 
 ```
-  FROM node: <to be provided by Dave>
+  FROM <to be provided by Dave>
   EXPOSE 8080
   COPY <to be provided by Dave>
   CMD <to be provided by Dave>
