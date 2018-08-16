@@ -12,10 +12,10 @@ $ cd dallasmeetup
 1. In the *dallasmeetup* directory, create a file named **Dockerfile** (it doesn't need an extension) and enter the following code using your preferred editor (nano, vi, etc.):
 
 ```
-  FROM node: <to be provided>
+  FROM node: <to be provided by Dave>
   EXPOSE 8080
-  COPY <to be provided>
-  CMD <to be provided>
+  COPY <to be provided by Dave>
+  CMD <to be provided by Dave>
 ```
 
 2. **Build** the "Docker Container image" (*docker build*) based on the **Dockerfile** you just created, name it "mynode" and tag it with "v1.0" in the current directory (* .*) you are in (*dallasmeetup*).
