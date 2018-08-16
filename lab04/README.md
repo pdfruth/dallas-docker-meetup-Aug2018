@@ -9,7 +9,7 @@
 
 ## Task 1: Deploy an "nginx" web server container
 
-In this section we'll deploy an **nginx** web server (*kubectl run*).
+In this section we'll deploy/*run* an **nginx** web server container (*kubectl run*) in a particular *namespace* on ICP.
 
 
 ```
