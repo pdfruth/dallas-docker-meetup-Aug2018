@@ -3,7 +3,7 @@
 
 ## Deploying a Container to Kubernetes
 
-**In this section**, we'll *run* our first container on Kubernetes. We'll work with a "Docker Container image" that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been pre-packaged and ready to run. That simplifies the usual effort to install and configure software.
+**In this section**, we'll *run* our first container on Kubernetes. We'll work with a "Docker Container image" that already has content in it. One of the things that makes containers easy and helpful is you can obtain images with software that's been pre-packaged and ready to *run*. That simplifies the usual effort to install and configure software.
 
 
 
