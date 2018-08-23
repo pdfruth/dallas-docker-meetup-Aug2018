@@ -1,8 +1,13 @@
 
 
-![](images/repo-cover.jpg)
+**Session Objective:**  Companies need rapid innovation to rollout new business models, optimize business processes, and respond to new regulations. And business leaders and employees are demanding this agility – everyone wants to be able to connect to their Line of Business (LOB) systems through mobile devices or remotely in a secure and efficient manner, no matter how old or new these systems are.
 
-**Session Objective:**  How to "modernize" and existing application (Application Modernization). Overview of the "what" and "why" of Docker containers and an overview of container orchestration with Kubernetes. In addition to lecture and discussion will be some hands on labs to demonstrate how to install the required tools, create a "Docker Container image" (docker build) and deploy it using Kubernetes on the IBM Cloud Private (ICP) platform. Attending this session will give you the basic skills to explore and experiment with containers to determine how they best fit your use cases, or just to have fun with them!
+Enter application modernization. (*01)
+
+This can include the re-platforming, re-hosting, re-coding, re-factoring, re-architecting, re-building, or the replacement and retirement of your legacy systems. 
+
+We'll discuss many of the aspects surrounding the topic of applicaiton modernization.  In addition to lecture and discussion there will be a hands on lab to demonstrate the some of the topics presented. 
+
 
 ---
 
@@ -10,29 +15,39 @@
 
 **Presentation and Discussion**
 
-In this segment we'll talk through the basics:
-- What are "containers" and where did they come from?
-- What is the difference between containers and Virtual Machines (VM's)?
-- What is "container orchestration" and what's [Kubernetes](https://kubernetes.io/) all about?
-- How does this change things for applications today?
-- Introduction to IBM Cloud Private (ICP).
+In this segment we'll discuss:
+
+- People: Identify the relevant stakeholders of the source and target applications. Identify the right teams to do the job.
+
+- Product: Identify the state the target application needs to be in, making sure there are no functional gaps compared to source application.
+
+- Process: The process to build the target application. 
+
+- Re-Hosting
+- Re-Factor
+- Re-Architect
+- Re-Build
+
+- Microservces
+
+- Containers
+
+
 
 **Exercises**
 
-- [lab 00](lab00/README.md): Creating a working environment
-- [lab 01](lab01/README.md): Example ---> How to *run* an existing Docker container (a Ubuntu 16.04 container)
-- [lab 02](lab02/README.md): Taking an existing web app, *build* a "Docker container image" of it and deploy/*run* the "Docker container" on your "local machine", then *stop* it.
+- lab 01 : Review legacy application
 
-**Getting Started with Kubernetes (k8s)**
+- lab 02 : Re-Host legacy application 
 
-- [lab 03](lab03/README.md): Running Kubernetes with ICP
-- [lab 04](lab04/README.md): Example ---> How to deploy a container to Kubernetes
+- lab 03 : Re-Factor legacy applicaiton to provide new business funcitonality
 
-**Deploying the existing web app on Kubernetes**
-
-- [lab 05](lab05/README.md): Upload the web app image to [Dockerhub](https://hub.docker.com/) and deploy/*run* the "Docker container" on our ICP cluster using Kubernetes
 
 
 **Questions?**
 
 ---
+(*) Sources:
+
+
+01 - [https://www.architech.ca/what-does-application-modernization-mean/] (https://www.architech.ca/what-does-application-modernization-mean/)
