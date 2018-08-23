@@ -3,9 +3,9 @@
 
 **Session Objective:**  Companies need rapid innovation to rollout new business models, optimize business processes, and respond to new regulations. And business leaders and employees are demanding this agility – everyone wants to be able to connect to their Line of Business (LOB) systems through mobile devices or remotely in a secure and efficient manner, no matter how old or new these systems are.
 
-Enter application modernization. (*01)
+Enter application modernization. 
 
-This can include the re-platforming, re-hosting, re-coding, re-factoring, re-architecting, re-building, or the replacement and retirement of your legacy systems. 
+Application modernization can include the re-platforming, re-hosting, re-coding, re-factoring, re-architecting, re-building, or the replacement and retirement of your legacy systems. 
 
 We'll discuss many of the aspects surrounding the topic of applicaiton modernization.  In addition to lecture and discussion there will be a hands on lab to demonstrate the some of the topics presented. 
 
@@ -37,18 +37,13 @@ In this segment we'll discuss:
 
 **Exercises**
 
-- lab 01 : Review legacy application
+- lab 01 : Review legacy application.
 
-- lab 02 : Re-Host legacy application 
+- lab 02 : Re-Host legacy application.  Moving the application to the cloud using a docker container. 
 
-- lab 03 : Re-Factor legacy applicaiton to provide new business funcitonality
-
+- lab 03 : Re-Factor legacy applicaiton.  Using a microservice enhance the applicaiton to provide new funcitonality.
 
 
 **Questions?**
 
 ---
-(*) Sources:
-
-
-01 - [https://www.architech.ca/what-does-application-modernization-mean/] (https://www.architech.ca/what-does-application-modernization-mean/)
