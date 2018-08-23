@@ -37,11 +37,11 @@ In this segment we'll discuss:
 
 **Exercises**
 
-- [lab 01] (/lab01/README.md) : Review legacy application.
+- [lab 01](lab01/README.md) : Review legacy application.
 
-- lab 02 : Re-Host legacy application.  Moving the application to the cloud using a docker container. 
+- [lab 02](lab02/README.md) : Re-Host legacy application.  Moving the application to the cloud using a docker container. 
 
-- lab 03 : Re-Factor legacy applicaiton.  Using a microservice enhance the applicaiton to provide new funcitonality.
+- [lab 03](lab03/README.md) : Re-Factor legacy applicaiton.  Using a microservice enhance the applicaiton to provide new funcitonality.
 
 
 **Questions?**
