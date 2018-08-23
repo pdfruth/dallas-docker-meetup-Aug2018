@@ -1,55 +1,13 @@
 
 
-## Running our first container.
+## Review legacy applicaiton
 
-In this section, we'll run an Ubuntu 16.04 container to see how things work.
+In this section, we'll review the existing source legacy applicaiton.
 
-At the terminal enter:
+Open browser to instructor provided url.
 
-```
+MedSearch enables users to search for medical providers across the nation. Searching by name, location, or speciality is provided.  Review the applicaiton capabilities to help understand what will be used in following labs.
 
-$ docker pull ubuntu:16.04
-
-```
-
-This brings the ubuntu container to our local machine and stores it in the docker repository. From there you can see a list of all the containers in the local repository.
-
-```
-
-$ docker images
-
-```
-
-Now we can run the ubuntu container
-
-```
-$ docker run -it --name myFirstContainer ubuntu /bin/bash
-root@d9389be0b795:/#
-root@d9389be0b795:/# ls
-bin  boot  dev  etc  home  lib  lib64  media  mnt  opt  proc  root  run  sbin  srv  sys  tmp  usr  var
-root@d9389be0b795:/#
-root@d9389be0b795:/#
-root@d9389be0b795:/# exit
-exit
-$
-
-```
-
-We can see the list of containers that are running, or that have exited
-
-```
-$ docker ps -a
-CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                     PORTS               NAMES
-d9389be0b795        ubuntu              "/bin/bash"         4 minutes ago       Exited (0) 2 minutes ago                       myFirstContainer
-```
-
-... and we can remove any containers that are no longer in use
-
-```
-$ docker rm myFirstContainer
-myFirstContainer
-
-```
 
 Congratulations! - you've run your first container!
 

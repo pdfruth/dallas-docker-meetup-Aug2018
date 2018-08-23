@@ -37,7 +37,7 @@ In this segment we'll discuss:
 
 **Exercises**
 
-- lab 01 : Review legacy application.
+- [lab 01] (/lab01/README.md) : Review legacy application.
 
 - lab 02 : Re-Host legacy application.  Moving the application to the cloud using a docker container. 
 
