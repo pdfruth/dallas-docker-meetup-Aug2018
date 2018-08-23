@@ -9,6 +9,5 @@ Open browser to instructor provided url.
 MedSearch enables users to search for medical providers across the nation. Searching by name, location, or speciality is provided.  Review the applicaiton capabilities to help understand what will be used in following labs.
 
 
-Congratulations! - you've run your first container!
-
+Congratulations! - you've completed lab01
 ---
