@@ -45,4 +45,13 @@ Information about the technology and data used to create MedSearch.
 
 
 Congratulations! - you've completed lab01
+
+
+### Source code
+
+Application source code is located at the following location:
+
+[https://github.com/IBM-ICP-CoC/MedSearch] ()
+
+
 ---
