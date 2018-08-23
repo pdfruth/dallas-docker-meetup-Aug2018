@@ -1,5 +1,5 @@
 
-![](images/repo-cover.jpg)
+![](images/app_modernization.png)
 
 **Session Objective:**  Companies need rapid innovation to rollout new business models, optimize business processes, and respond to new regulations. And business leaders and employees are demanding this agility – everyone wants to be able to connect to their Line of Business (LOB) systems through mobile devices or remotely in a secure and efficient manner, no matter how old or new these systems are.
 
