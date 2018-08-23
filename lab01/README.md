@@ -51,7 +51,7 @@ Congratulations! - you've completed lab01
 
 Application source code is located at the following location:
 
-[https://github.com/IBM-ICP-CoC/MedSearch] ()
+[https://github.com/IBM-ICP-CoC/MedSearch]()
 
 
 ---
