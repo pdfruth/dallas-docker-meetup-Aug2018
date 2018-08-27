@@ -132,5 +132,13 @@ The home screen for MedSearch is launched.  The application enables users to sea
 ![](../images/medsearch01.png)
 ---
 
+
+
+Source code for this microservice is available at the following link:
+
+<https://github.com/IBM-ICP-CoC/MedSearch>
+
+
+
 ### Re-Hosting ("lift and shift") completed
 ---

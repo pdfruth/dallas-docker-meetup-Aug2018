@@ -209,10 +209,9 @@ Switch to the 'Feedback' application and view the results.  The user name, feedb
 ---
 
 
+Source code for this microservice is available at the following link:
 
-
-
-
+<https://github.com/IBM-ICP-CoC/feedbackservice>
 
 
 
