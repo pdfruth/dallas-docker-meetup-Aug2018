@@ -129,23 +129,15 @@ Detail information regarding the service is shown.  Select the link to the right
 
 The home screen for Feedback is launched.  The application displays the user submitted feedback and the scoring of the Tone Analyzer categories.
 
-![](../images/feedback01.png)
----
-
-<br><br>
-
----
-#### Task 10
-
-The home screen for Feedback is launched.  The application displays the user submitted feedback and the scoring of the Tone Analyzer categories.
-
 ![](../images/feedback00.png)
 ---
 
 <br><br>
 
+
+
 ---
-#### Task 11
+#### Task 10
 
 Configure the required authorization for the Feedback application to access the Tone Analyzer service.  Select the 'Configure' button in the upper right portion of the screen.  The configuration screen is shown.  Provide or edit the information to access the Tone Analyzer service. 
 
@@ -159,7 +151,7 @@ Press the 'Configure / Validate' button to continue.  If the data is incorrect a
 <br><br>
 
 ---
-#### Task 12
+#### Task 11
 
 Select the browser window for the MedSearch application.  Select the navigation option in the upper left corner and select the 'Enable feedback' option.  Selecting this option enables the ability to submit feedback to the new microservice.  The design and work to add this to an actual application was not accomplished in the task.  This approach enables the user to add this feature without having to modify the MedSearch application. 
 
@@ -170,7 +162,7 @@ Select the browser window for the MedSearch application.  Select the navigation 
 <br><br>
 
 ---
-#### Task 13
+#### Task 12
 
 The 'Feedback' icon is now present in the upper right portion of the MedSearch screen.  When this icon is pressed the new screen dialog to submit feedback is shown.
 
@@ -181,7 +173,7 @@ The 'Feedback' icon is now present in the upper right portion of the MedSearch s
 <br><br>
 
 ---
-#### Task 14
+#### Task 13
 
 The 'Feedback' dialog modal is opened when the feedback icon is pressed.  Provide the user 'Name' and 'Feedback'.  The value to enter in the API Url field is obtained from the Feedback microservice.
 
@@ -192,7 +184,7 @@ The 'Feedback' dialog modal is opened when the feedback icon is pressed.  Provid
 <br><br>
 
 ---
-#### Task 15
+#### Task 14
 
 The 'Feedback' dialog modal is opened when the feedback icon is pressed.  Provide the user 'Name' and 'Feedback'.  
 
@@ -207,7 +199,7 @@ The value for the API Url is obtained from the actual feedback application.  The
 <br><br>
 
 ---
-#### Task 16
+#### Task 15
 
 Switch to the 'Feedback' application and view the results.  The user name, feedback and the scoring of the feedback is provided.
 
