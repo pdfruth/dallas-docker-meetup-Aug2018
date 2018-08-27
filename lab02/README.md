@@ -5,6 +5,7 @@
 
 The presenter will demonstrate detail steps to accomplish the re-hosting of the MedSearch application.  The following steps were performed to accomplish the containerization of the existing application. 
 
+![](../images/usecase-lab02.png)
 
 <br><br>
 
