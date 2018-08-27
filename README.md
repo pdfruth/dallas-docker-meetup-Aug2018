@@ -37,9 +37,12 @@ In this segment we'll discuss:
 
 **Exercises**
 
-- [lab 01](lab01/README.md) : Review legacy application.
+All labs can be performed using only a browser that can reach the internet.  All tasks are performed from the browser and no additional software is necessary. 
 
-- [lab 02](lab02/README.md) : Re-Host legacy application.  Moving the application to the cloud using a docker container. 
+
+- [lab 01](lab01/README.md) : Review legacy application MedSearch.
+
+- [lab 02](lab02/README.md) : Re-Host (lift and shift) - Containerize the MedSearch application.  This lab will containerize the applicaiton and deploy it to the cloud.
 
 - [lab 03](lab03/README.md) : Re-Factor legacy applicaiton.  Using a microservice enhance the applicaiton to provide new funcitonality.
 
