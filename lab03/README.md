@@ -4,7 +4,7 @@
 
 ### Add containerized microservice to extend the MedSearch application to provide the feedback service.
 
-The presenter will demonstrate detail steps to accomplish the re-hosting of the MedSearch application.  The following steps were performed to accomplish the containerization of the existing application. 
+The presenter will demonstrate detail steps to accomplish the re-factoring of the MedSearch application and extending the application to include feedback.  The following steps were performed to accomplish the containerization of the existing application. 
 
 ![](../images/usecase-lab03.png)
 
